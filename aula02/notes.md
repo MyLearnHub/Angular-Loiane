@@ -18,8 +18,3 @@ sublime
 
 # fazer build para o browser (ligar servidor, tem que ser na pasta do projeto angular!)
 `ng serve`
-
-# Criar um componente via angular-cli
-`ng g c <nome-do-componente>`
-g - generate (gerar)
-c - component (componente)
