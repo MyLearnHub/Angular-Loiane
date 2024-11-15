@@ -1,10 +1,14 @@
 import { Component } from '@angular/core';
 
+import * as _ from 'lodash';
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = '04_diretivas';
+  title = 'app works!';
+
+  list = _.map([1, 2, 3], (n) => `# ${n}`);
 }
